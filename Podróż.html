@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d65d1d1c82.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Strona podróżowa</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>TravelFun</span>
+            <div class="icons">
+                <span>Join us on Social media</span>
+                <a href="https://www.instagram.com/poliafterlois/"><i class="fab fa-instagram" ></i></a>
+                <a href="https://www.facebook.com/groups/1769741799910851/"><i class="fab fa-facebook" ></i></a>
+                <a href="https://vk.com/id133871964"><i class="fab fa-vk" ></i></a>
+            </div>
+
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Możliwości</a>
+            <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Najpopularniejsze</a>
+            <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Kontakt</a>
+            <a href="#" onclick="slowScroll('#faq')" title="Отваты на вопросы">FAQ</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h2>“The gladdest moment in human life is a departure into unknown lands.”</h2>
+        <h3>P.S. Sir Richard Burton</h3>
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Skorzystaj się z naszej oferty</h2>
+            <span>Duży dobór proponowanych podróży!</span>
+        </div>
+        <div class="text">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem eveniet harum id explicabo mollitia molestias aliquid provident. Pariatur omnis sed molestiae obcaecati saepe natus itaque doloribus? Omnis, vel quibusdam esse quaerat debitis officiis placeat non inventore cupiditate quia culpa dolorum amet tempora quasi vitae neque exercitationem nihil eum magni.</span>
+        </div>
+    </div>
+
+    <div id="overview">
+        <h2>Najpopularniejsze loty</h2>
+        <h4>Spróbuj też</h4>
+        <div class="img">
+            <a href="https://pl.wikipedia.org/wiki/Francja"><img src="francja.jpg" alt="" width="354" height="236"></a>
+            <span>
+                Francja
+            </span>
+        </div>
+        <div class="img">
+            <a href="https://en.wikipedia.org/wiki/Egypt"><img src="egypt.jpg" alt="" width="354" height="236"></a>
+            <span>
+                Egypt
+            </span>
+        </div>
+        <div class="img">
+            <a href="https://pl.wikipedia.org/wiki/Włochy"><img src="italia.jpg" alt="" width="354" height="236"></a>
+            <span>
+                Włochy
+            </span>
+        </div>
+        <div class="img">
+            <a href="https://pl.wikipedia.org/wiki/Stany_Zjednoczone"><img src="usa.jpg" alt="" width="354" height="236"></a>
+            <span>
+                USA
+            </span>
+        </div>
+    </div>
+
+
+    <div id="contacts">
+        <center>
+            <h5>Skontaktuj się z nami</h5>
+        </center>
+        <form id="form_input">
+            <label for="name">Imie <span>*</span></label><br>
+            <input type="text" placeholder="Wprowadź imie" name="name" id="name"><br>
+            <label for="email">Podaj adres pocztowy <span>*</span></label><br>
+            <input type="email" placeholder="Podaj adres e-mail" name="email" id="email"><br>
+            <label for="message">Wiadomość <span>*</span></label><br>
+            <textarea placeholder="Wprowadź dane do wiadomości" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Wysłać</div>
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Opłata</span><br>
+            <span class="heading">Jak dokonać opłaty?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Jak dokonać opłaty?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Jak dokonać opłaty?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+        </div>
+        <div>
+            <span class="title">Informacja</span><br>
+            <span class="heading">Co zawierają oferty?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Co zawierają oferty?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Co zawierają oferty?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+        </div>
+        <div>
+            <span class="title">Gwarancji</span><br>
+            <span class="heading">Istniejące gwarancji</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Istniejące gwarancji</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Istniejące gwarancji</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+
+        $(document).on("scroll", function() {
+            if ($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class", "fixed");
+        });
+    </script>
+
+</body>
+
+</html>
